@@ -4,6 +4,7 @@ Main objectives:
 
 - Speed
 - Simple syntax
+- Simple toolbox
 
 Based on F#:
 
