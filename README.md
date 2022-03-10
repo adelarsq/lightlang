@@ -1,4 +1,6 @@
-# Light Language 🖤💙💛
+# Light Language 💡
+
+🖤💙💛
 
 Light it's a language that bring peace for people.
 
@@ -30,3 +32,8 @@ This is not a toy project. In the next months I (or we) will turn this project a
 - [V](https://vlang.io)
 - [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org)
+- Julia
+- Python
+- Elixir
+- Lua
+- Potigol
