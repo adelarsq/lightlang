@@ -11,9 +11,9 @@ An updated cheatsheet for Light Language.
 {- a multiline comment based on ELM
    {- can be nested -}
 -}
-{xml The `let` keyword defines an (immutable) value xml}
-{sql select * from table sql}
-{md select * from table md}
+{-xml The `let` keyword defines an (immutable) value xml-}
+{-sql select * from table sql-}
+{-md select * from table md-}
 ```
 
 - [XML doc comments](https://docs.microsoft.com/dotnet/fsharp/language-reference/xml-documentation)
