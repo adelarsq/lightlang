@@ -12,7 +12,8 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 - Can't be used to harm people. See [License](LICENSE)
 - Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
-- Manutelability
+- Manutenability
+- Strongly typed
 - Compile for multiple platforms
 - Easy to interop with others languages
 - Full featured
