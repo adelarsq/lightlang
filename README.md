@@ -11,7 +11,7 @@ This is not a toy project. In the next months I (or we) will turn this project a
 ## Principles
 
 - Can't be used to harm people. See [License](LICENSE)
-- Speed
+- Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 - Manutelability
 - Compile for multiple platforms
 - Easy to interop with others languages
@@ -33,8 +33,8 @@ This is not a toy project. In the next months I (or we) will turn this project a
 - [V](https://vlang.io)
 - [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org)
-- Julia
-- Python
-- Elixir
-- Lua
-- Potigol
+- [Julia](https://julialang.org/)
+- [Python](https://www.python.org/)
+- [Elixir](https://elixir-lang.org/)
+- [Lua](https://www.lua.org/)
+- [Potigol](https://potigol.github.io/docs/)
