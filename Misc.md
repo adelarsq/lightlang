@@ -4,5 +4,5 @@
 
 - `*.li` - light source code
 - `*.lis` - light script
-- `build.li` - light project file
+- `build.li` - light project file. Project file is also made with Light
 
