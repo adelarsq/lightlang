@@ -4,5 +4,5 @@
 
 - `*.li` - light source code
 - `*.lis` - light script
-- `*.lip` - light project file
+- `build.li` - light project file
 
