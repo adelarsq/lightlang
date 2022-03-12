@@ -22,11 +22,16 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 - [x] Define roadmap (just draft for now)
 - [x] Define language to write the first compiler version - will be Zig since it's more stable
-- [-] WIP Define features - ~3-6 months
-- [ ] Simple translator from Light to Zig - ~1 year
-- [ ] Simple translator from Light to V - ???
-- [ ] Apply F# features - ~2 years
-- [ ] Standalone compiler - ~1 or ~2 years
+- [ ] POC features - ~3-6 months
+  - [x] Draft
+  - [ ] Syntax, Grammar and related
+  - [ ] Interpreter
+- [ ] Long term ~2 or more years
+  - [ ] Final design
+  - [ ] Write Light to Zig transpiler
+  - [ ] LLVM support
+  - [ ] Advances features
+- [ ] Standalone compiler ~? years
 
 ## Based on
 
