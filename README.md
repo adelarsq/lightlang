@@ -34,6 +34,10 @@ This is not a toy project. In the next months I (or we) will turn this project a
   - [ ] Advances features
 - [ ] Standalone compiler ~? years
 
+## License
+
+[Light License](https://github.com/adelarsq/lightlang/blob/main/LICENSE) - a restricted version from the MIT License.
+
 ## Based on
 
 Ordered by importance:
