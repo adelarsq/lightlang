@@ -6,7 +6,8 @@ Light it's a language that bring peace for people.
 
 Tools and technologies are made to bring people happiness, not fear and despair.
 
-This is not a toy project. In the next months I (or we) will turn this project alive!
+> **Note**
+> This is not a toy project. In the next months I (or we) will turn this project alive!
 
 ## Principles and Goals
 
@@ -24,10 +25,14 @@ This is not a toy project. In the next months I (or we) will turn this project a
 - [x] Define language to write the first compiler version - will be Zig since it's more stable
 - [x] Logo
 - [ ] POC features - ~3-6 months
-  - [x] Draft
-  - [ ] Syntax, Grammar and related
+  - [ ] Define grammar **wip**
+  - [ ] Translator
+    - [ ] Define the target language (F#, V or Zig)
+    - [ ] Create translator
   - [ ] Interpreter
-- [ ] Long term ~2 or more years
+- [ ] Long term ~2 or more years  
+  - [ ] Support changes on the grammar
+  - [ ] Native compiler 
   - [ ] Final design
   - [ ] Write Light to Zig transpiler
   - [ ] LLVM support
