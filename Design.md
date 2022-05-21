@@ -3,7 +3,7 @@
 Main objectives:
 
 - Speed
-- Simple syntax
+- Simple syntax - as minimal as possible
 - Simple toolbox
 
 Based on F#:
