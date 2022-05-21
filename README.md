@@ -1,6 +1,6 @@
-# Light Language 💡
+# Light Language 🖤💙💛
 
-🖤💙💛
+<img src="https://user-images.githubusercontent.com/430272/169656615-e5135211-5363-4b2c-967f-d9ba8d233277.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="150" height="150" />
 
 Light it's a language that bring peace for people.
 
@@ -22,7 +22,7 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 - [x] Define roadmap (just draft for now)
 - [x] Define language to write the first compiler version - will be Zig since it's more stable
-- [ ] Logo
+- [x] Logo
 - [ ] POC features - ~3-6 months
   - [x] Draft
   - [ ] Syntax, Grammar and related
