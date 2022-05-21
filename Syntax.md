@@ -58,6 +58,8 @@ let str = $"A pair of braces: {{}}"
 printfn $"Name: %s{name}, Age: %d{age}" // typed
 ```
 
+References:
+
 - [Strings](https://docs.microsoft.com/dotnet/fsharp/language-reference/strings)
 
 ## Types and Literals
@@ -81,9 +83,6 @@ printfn $"Name: %s{name}, Age: %d{age}" // typed
 - str : String slices.
 - tuple : A finite heterogeneous sequence, (T, U, ..).
 
-- [Literals](https://docs.microsoft.com/dotnet/fsharp/language-reference/literals)
-- [Rust types](https://www.codingame.com/playgrounds/365/getting-started-with-rust/primitive-data-types)
-
 `and` keyword is used for definining mutually recursive types and functions:
 
 ```light
@@ -106,6 +105,11 @@ let add30kg m =   // type inference for input and output
     m + 30.0<kg>
 add30 2.0<kg>     // val it: float<kg> = 32.0
 ```
+
+References:
+
+- [Literals](https://docs.microsoft.com/dotnet/fsharp/language-reference/literals)
+- [Rust types](https://www.codingame.com/playgrounds/365/getting-started-with-rust/primitive-data-types)
 
 # Printing Things
 
