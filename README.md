@@ -36,9 +36,11 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 ## Based on
 
+Ordered by importance:
+
 - [F#](https://fsharp.org)
-- [V](https://vlang.io)
 - [Zig](https://ziglang.org)
+- [V](https://vlang.io)
 - [ELM](https://elm-lang.org)
 - [Julia](https://julialang.org/)
 - [Python](https://www.python.org/)
