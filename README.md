@@ -38,6 +38,10 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 [Light License](https://github.com/adelarsq/lightlang/blob/main/LICENSE) - a restricted version from the MIT License.
 
+## News
+
+- [Show HN: Light Language - General purpose programming language made for peace](https://news.ycombinator.com/item?id=30521162)
+
 ## Based on
 
 Ordered by importance:
