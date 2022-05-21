@@ -22,6 +22,7 @@ This is not a toy project. In the next months I (or we) will turn this project a
 
 - [x] Define roadmap (just draft for now)
 - [x] Define language to write the first compiler version - will be Zig since it's more stable
+- [ ] Logo
 - [ ] POC features - ~3-6 months
   - [x] Draft
   - [ ] Syntax, Grammar and related
