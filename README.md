@@ -60,3 +60,4 @@ Ordered by importance:
 - [Elixir](https://elixir-lang.org/)
 - [Lua](https://www.lua.org/)
 - [Potigol](https://potigol.github.io/docs/)
+- [Roc](https://www.roc-lang.org/)
