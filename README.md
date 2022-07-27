@@ -21,7 +21,7 @@ Technology need to bring happiness, not fear and despair.
 
 ## Roadmap
 
-- [x] Define roadmap (just draft for now)
+- [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
 - [x] Logo
 - [ ] POC features - ~1 year
