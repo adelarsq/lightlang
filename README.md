@@ -24,12 +24,11 @@ Technology need to bring happiness, not fear and despair.
 - [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
 - [x] Logo
+- [X] Define Language used to implement - V
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP**
-  - [ ] Translator
-    - [ ] Define the target language (F#, V or Zig)  **WIP**
-    - [ ] Create translator
-  - [ ] Interpreter
+  - [ ] Create AST
+  - [ ] V source generator
 - [ ] Long term ~2 or more years  
   - [ ] Support changes on the grammar
   - [ ] Native compiler 
