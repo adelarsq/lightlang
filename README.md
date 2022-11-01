@@ -30,13 +30,12 @@ Technology need to bring happiness, not fear and despair.
   - [ ] Create AST
   - [ ] V source generator
 - [ ] Long term ~2 or more years  
-  - [ ] Support changes on the grammar
-  - [ ] Native compiler 
-  - [ ] Final design
-  - [ ] Write Light to Zig transpiler
+  - [ ] V -> C
+  - [ ] V -> C -> Zig
+  - [ ] Improve design
+- [ ] May be implemented or not
+  - [ ] Standalone compiler ~? years
   - [ ] LLVM support
-  - [ ] Advances features
-- [ ] Standalone compiler ~? years
 
 ## License
 
@@ -51,8 +50,8 @@ Technology need to bring happiness, not fear and despair.
 Ordered by importance:
 
 - [F#](https://fsharp.org)
-- [Zig](https://ziglang.org)
 - [V](https://vlang.io)
+- [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org)
 - [Julia](https://julialang.org/)
 - [Python](https://www.python.org/)
