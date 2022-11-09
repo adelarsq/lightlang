@@ -1,22 +1,28 @@
-# Light Syntax
-
-** DRAFT **
-
-An updated cheatsheet for Light Language.
+# Light Syntax Reference
 
 ## Comments
 
+Simple comments:
+
 ```light
 -- And this is line comment
+```
+
+Multiline comments:
+
+```light
 {- a multiline comment based on ELM
    {- can be nested -}
 -}
+```
+
+Typed comments:
+
+```light
 {-xml The `let` keyword defines an (immutable) value xml-}
 {-sql select * from table sql-}
 {-md select * from table md-}
 ```
-
-- [XML doc comments](https://docs.microsoft.com/dotnet/fsharp/language-reference/xml-documentation)
 
 ## strings
 
