@@ -52,7 +52,7 @@ Ordered by importance:
 - [F#](https://fsharp.org)
 - [V](https://vlang.io)
 - [Zig](https://ziglang.org)
-- [ELM](https://elm-lang.org)
+- [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [Julia](https://julialang.org/)
 - [Python](https://www.python.org/)
 - [Elixir](https://elixir-lang.org/)
