@@ -14,3 +14,9 @@
 - [ ] Docs generator
 - [ ] Web server
 - [ ] Doctor
+
+## References
+
+- [Tiny-C Compiler - 2001](https://news.ycombinator.com/item?id=35133708)
+
+
