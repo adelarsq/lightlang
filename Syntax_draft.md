@@ -2,10 +2,13 @@
 
 ## Types
 
+-- Based on Rust types - https://doc.rust-lang.org/book/ch03-02-data-types.html
+
 i8 i16 i32 i64 i128 i256 // i integers
-c8 c16 // c chars
-s8 s16 // s strings
-b1 b8  // b boolean
+u8 u16 u32 u64 u128 u256 // u unsigned integers
+c8 c16 // c chars -- TODO
+s8 s16 // s strings -- TODO
+b1 b8  // b boolean -- TODO
 
 ## Operators
 
