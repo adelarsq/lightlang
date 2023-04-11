@@ -96,7 +96,20 @@ type MyRecord:a =
 type MyUnion:a =
     | Choice1:a
     | Choice2:a*a
+
+// Tuple
+Tuple [1 2]
 ```
+
+## Collections
+
+'''
+Array [1 3 4 5]
+List [1 3 4 5]
+Seq [1 2 3 4]
+'''
+
+
 
 ## Flux Control
 
