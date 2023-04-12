@@ -13,6 +13,7 @@ Technology need to bring happiness, not fear and despair.
 
 - Can't be used to harm people. See [License](LICENSE)
 - Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+- Tiny syntax that is easy to understand
 - Manutenability
 - Strongly typed
 - Compile for multiple platforms
