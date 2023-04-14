@@ -1,10 +1,10 @@
 # Design Principles
 
-Main objectives:
+Main principles:
 
-- Speed
+- Performance
 - Simple syntax - as minimal as possible
-- Simple toolbox
+- Simple but robust toolbox
 
 Based on F#:
 
