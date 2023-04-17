@@ -53,6 +53,10 @@ Binaries:
 - <<
 - >>>
 
+Custom operation:
+
+- `...` - returns a not implemented exception
+
 ## Functions
 
 ```light
@@ -69,6 +73,17 @@ fun sum x:i32 y:i32 : i32 =>
 // Defining new operators -- TODO
 fun * x y =>
     100
+```
+
+Default values:
+
+```
+fun sum x:i32=10 y:i32 : i32 =>
+    x + y
+
+
+fn array2list list:Array[i32]=[10,10,10] : List[i32] =>
+    ...
 ```
 
 ## Generics
@@ -113,12 +128,11 @@ Tuple [1 2]
 
 ## Collections
 
-'''
+```
 Array [1 3 4 5]
 List [1 3 4 5]
 Seq [1 2 3 4]
-'''
-
+```
 
 
 ## Flux Control
