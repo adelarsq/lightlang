@@ -2,9 +2,28 @@
 
 ## Comments
 
+Simple comments:
+
+```light
+-- Comments are markdown by default
 ```
-// Comments are markdown by default
+
+Multiline comments:
+
+```light
+{- a multiline comment based on ELM
+   {- can be nested -}
+-}
 ```
+
+Typed comments:
+
+```light
+{-xml The `let` keyword defines an (immutable) value xml-}
+{-sql select * from table sql-}
+{-md select * from table md-}
+```
+
 
 ## Types
 
