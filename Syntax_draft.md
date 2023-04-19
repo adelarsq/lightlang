@@ -24,6 +24,8 @@ Typed comments:
 {-md select * from table md-}
 ```
 
+[1](https://elm-lang.org/docs/syntax#comments)
+
 ## Types
 
 ```
