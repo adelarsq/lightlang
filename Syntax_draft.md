@@ -21,11 +21,11 @@ b1 b8  // b boolean -- TODO
 ## Values
 
 ```
-"hello"         // one string value
-"hello","world" // two string values
-3.14            // one float value
-3.14,4.15       // two float values (tuple)
-3.14,4.15,5.15  // three float values (tuple)
+"hello"           // or ["hello"] one string value
+["hello" "world"] // two string values
+3.14              // or [3.14] one float value
+[3.14 4.15]       // two float values (tuple)
+[3.14 4.15 5.15]  // three float values (tuple)
 ```
 
 ## Operators
