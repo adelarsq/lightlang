@@ -186,4 +186,18 @@ Seq [1 2 3 4]
 
 ### do
 
+## Low Level
+
+### Pointers and References
+
+```
+let a = 1
+let pointer = ^a
+let reference = a^
+```
+
+[1](https://odin-lang.org/docs/overview/#pointers)
+
+
+
 
