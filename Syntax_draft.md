@@ -1,5 +1,10 @@
 # Syntax Draft
 
+## General Rules
+
+- no inheritance - this is made with composition (Rusty like)
+- named parameters (based on OCalm [link](https://v2.ocaml.org/manual/lablexamples.html))
+
 ## Comments
 
 Simple comments:
