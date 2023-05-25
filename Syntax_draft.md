@@ -183,6 +183,12 @@ Seq [1 2 3 4]
 
 ### if
 
+```
+if a > 11 then "> 11" else "<= 11"
+```
+
+[1](https://elmprogramming.com/if-expression.html)
+
 ### switch
 
 ### for
