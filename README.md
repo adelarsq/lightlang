@@ -61,3 +61,4 @@ Ordered by importance:
 - [Potigol](https://potigol.github.io/docs/)
 - [Roc](https://www.roc-lang.org/)
 - [Carbon](https://github.com/carbon-language/carbon-lang)
+- [Odin](https://odin-lang.org)
