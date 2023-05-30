@@ -62,3 +62,4 @@ Ordered by importance:
 - [Roc](https://www.roc-lang.org/)
 - [Carbon](https://github.com/carbon-language/carbon-lang)
 - [Odin](https://odin-lang.org)
+- [Raku](https://www.raku.org/) (1)[https://raku-advent.blog/2022/12/20/sigils/)
