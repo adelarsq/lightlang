@@ -49,12 +49,12 @@ Technology need to bring happiness, not fear and despair.
 
 ## Based on
 
-Ordered by importance:
+These are the list of languages on which this will be based:
 
 - [F#](https://fsharp.org)
-- [V](https://vlang.io)
 - [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
+- [V](https://vlang.io)
 - [Julia](https://julialang.org/)
 - [Python](https://www.python.org/)
 - [Elixir](https://elixir-lang.org/)
