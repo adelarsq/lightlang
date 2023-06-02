@@ -29,14 +29,12 @@ Technology need to bring happiness, not fear and despair.
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
-  - [ ] V source generator
+  - [ ] Zig source generator
 - [ ] Long term ~2 or more years  
-  - [ ] V -> C
-  - [ ] V -> C -> Zig
-  - [ ] Improve design
-- [ ] May be implemented or not
   - [ ] Standalone compiler ~? years
+- [ ] May be implemented or not
   - [ ] LLVM support
+  - [ ] Improve design
 
 ## License
 
