@@ -25,7 +25,7 @@ Technology need to bring happiness, not fear and despair.
 - [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
 - [x] Logo
-- [X] Define Language used to implement - V
+- [X] Define Language used to implement - Zig 
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
