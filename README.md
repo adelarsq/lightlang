@@ -6,8 +6,11 @@ Light it's a language that bring light for people.
 
 Technology need to bring happiness, not fear and despair.
 
-> **Note**
+> **Objectives**
 > This is not a toy project. In the next months I (or we) will turn this project alive!
+
+> **About the creator**
+> I am creating this project on my free time, but with production in mind.
 
 ## Principles and Goals
 
