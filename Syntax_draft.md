@@ -107,7 +107,6 @@ Default values:
 fun sum x:i32=10 y:i32 : i32 =>
     x + y
 
-
 fn array2list list:Array[i32]=[10,10,10] : List[i32] =>
     ...
 ```
@@ -181,7 +180,9 @@ Seq [1 2 3 4]
 
 ## Flux Control
 
-### if
+### Conditionals
+
+#### if
 
 ```
 if a > 11 then "> 11" else "<= 11"
@@ -189,13 +190,32 @@ if a > 11 then "> 11" else "<= 11"
 
 [1](https://elmprogramming.com/if-expression.html)
 
-### switch
+#### case
 
-### for
+```
+case maybeList
+  Just xs -> xs
+  Nothing -> []
 
-### while
+case xs
+  [] ->
+    Nothing
+  first :: rest ->
+    Just (first, rest)
 
-### do
+case n
+  0 -> 1
+  1 -> 1
+  _ -> fib (n-1) + fib (n-2)
+```
+
+### Loops
+
+#### for
+
+#### while
+
+#### do
 
 ## Low Level
 
@@ -208,7 +228,3 @@ let reference = a^
 ```
 
 [1](https://odin-lang.org/docs/overview/#pointers)
-
-
-
-
