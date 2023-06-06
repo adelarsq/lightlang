@@ -99,6 +99,12 @@ fun sum x:i32 y:i32 : i32 =>
 // Defining new operators -- TODO
 fun * x y =>
     100
+    
+// Defining function names as strings
+// ? defines a test
+fun "returns a sum" ?
+   let s = sum 10 20
+   assert = 30 s
 ```
 
 Default values:
