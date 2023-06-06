@@ -33,6 +33,9 @@ Technology need to bring happiness, not fear and despair.
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
   - [ ] Zig source generator
+  - [ ] Package manager
+  - [ ] LSP
+  - [ ] Treesitter
 - [ ] Long term ~2 or more years  
   - [ ] Standalone compiler ~? years
 - [ ] May be implemented or not
