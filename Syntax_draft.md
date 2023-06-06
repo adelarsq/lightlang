@@ -1,5 +1,7 @@
 # Syntax Draft
 
+This document will be used as base for create a grammar, treesitter rules, ...
+
 ## General Rules
 
 - no inheritance - this is made with composition (Rusty like)
