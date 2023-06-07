@@ -95,8 +95,18 @@ fun x y -> x + y
 fun sum x y =>
     x + y
 
-fun sum x:i32 y:i32 : i32 =>
+// Infered return type
+fun sum x:i32 y:i32 => i32
     x + y
+
+// Typed return type
+fun sum x:i32 y:i32 => i32
+    x + y
+   
+// Multiple return types (confirm)
+fun sumOrSub x:i32 y:i32 => i32 i32
+    x + y
+    x - y
    
 // Defining new operators -- TODO
 fun * x y =>
