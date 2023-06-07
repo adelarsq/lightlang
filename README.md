@@ -33,8 +33,8 @@ Technology need to bring happiness, not fear and despair.
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
   - [ ] Zig source generator
-  - [ ] REPL
-  - [ ] Package manager
+  - [ ] REPL (based on Elixir's REPL)
+  - [ ] Package manager (allow multiple backends? )
   - [ ] LSP
   - [ ] Treesitter
 - [ ] Long term ~2 or more years  
