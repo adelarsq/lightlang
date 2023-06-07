@@ -33,6 +33,7 @@ Technology need to bring happiness, not fear and despair.
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
   - [ ] Zig source generator
+  - [ ] REPL
   - [ ] Package manager
   - [ ] LSP
   - [ ] Treesitter
