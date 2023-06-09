@@ -68,3 +68,4 @@ These are the list of languages on which this will be based:
 - [Carbon](https://github.com/carbon-language/carbon-lang)
 - [Odin](https://odin-lang.org)
 - [Raku](https://www.raku.org/) [1](https://raku-advent.blog/2022/12/20/sigils/)
+- [Austral](https://austral-lang.org)
