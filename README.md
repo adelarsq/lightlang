@@ -4,23 +4,24 @@
 
 Light it's a language that bring light for people.
 
-Technology need to bring happiness, not fear and despair.
-
 > **Objectives**
 > This is not a toy project. In the next months I (or we) will turn this project alive!
 
+> **Premisses**
+> Technology need to bring happiness, not fear and despair.
+
 > **About the creator**
-> I am creating this project on my free time, but with production in mind.
+> I am creating this project on my free time, but with production in mind. I don't know how much time will take but we will reach there :)
 
 ## Principles and Goals
 
 - Can't be used to harm people. See [License](LICENSE)
-- Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
+- Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf) (if you want)
 - Tiny syntax that is easy to understand
 - Manutenability
 - Strongly typed
-- Compile for multiple platforms
-- Easy to interop with others languages
+- Transpile for multiple languages
+- Easy to interop with transpiled languages
 - Full featured
 
 ## Roadmap
@@ -32,16 +33,22 @@ Technology need to bring happiness, not fear and despair.
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
-  - [ ] Zig source generator
+  - Transpilers (planed):
+    - [ ] Zig
+    - [ ] JavaScript
+    - [ ] WebAssembly
+    - [ ] Rust/Crab
+    - [ ] Java
+    - [ ] Elixir
+    - [ ] F#
+    - [ ] Lua
   - [ ] REPL (based on Elixir's REPL)
   - [ ] Package manager (allow multiple backends? )
   - [ ] LSP
   - [ ] Treesitter
 - [ ] Long term ~2 or more years  
   - [ ] Standalone compiler ~? years
-- [ ] May be implemented or not
-  - [ ] LLVM support
-  - [ ] Improve design
+    - [ ] LLVM support
 
 ## License
 
@@ -55,7 +62,7 @@ Technology need to bring happiness, not fear and despair.
 
 These are the list of languages on which this will be based:
 
-- [F#](https://fsharp.org)
+- [F#](https://fsharp.org) [Fable](https://github.com/fable-compiler/Fable)
 - [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [V](https://vlang.io)
@@ -72,3 +79,4 @@ These are the list of languages on which this will be based:
 - [Haskell](https://www.haskell.org/)
 - [Lisp](https://lisp-lang.org/)
 - [Prolog](http://www.gprolog.org/)
+- [CoffeeScript](https://coffeescript.org/)
