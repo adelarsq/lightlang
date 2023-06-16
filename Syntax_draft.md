@@ -31,6 +31,12 @@ Typed comments:
 {-md select * from table md-}
 ```
 
+[Type annotations](https://coffeescript.org/#comments):
+
+```
+# This comment will be transpiled together
+```
+
 [1](https://elm-lang.org/docs/syntax#comments)
 
 ## Types
