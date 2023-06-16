@@ -6,6 +6,11 @@
 - `*.lis` - light script
 - `build.li` - light project file. Project file is also made with Light
 
+## Format
+
+- All code must be camelCase
+- Files are readed top/down (**confirm**)
+
 ## Tools
 
 - [ ] Installer
