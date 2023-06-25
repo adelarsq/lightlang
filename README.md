@@ -80,3 +80,4 @@ These are the list of languages on which this will be based:
 - [Lisp](https://lisp-lang.org/)
 - [Prolog](http://www.gprolog.org/)
 - [CoffeeScript](https://coffeescript.org/)
+- [Hare](https://harelang.org)
