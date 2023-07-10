@@ -33,7 +33,7 @@ Light it's a language that bring light for people.
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
-  - Transpilers (planed):
+  - Transpilers (planed) (something like Fable for F#):
     - [ ] Zig
     - [ ] JavaScript
     - [ ] WebAssembly
@@ -63,13 +63,17 @@ Light it's a language that bring light for people.
 These are the list of languages on which this will be based:
 
 - [F#](https://fsharp.org) [Fable](https://github.com/fable-compiler/Fable)
+- [Lisp](https://lisp-lang.org/)
 - [Zig](https://ziglang.org)
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [V](https://vlang.io)
+- [Lua](https://www.lua.org/)
+
+Others:
+
 - [Julia](https://julialang.org/)
 - [Python](https://www.python.org/)
 - [Elixir](https://elixir-lang.org/)
-- [Lua](https://www.lua.org/)
 - [Potigol](https://potigol.github.io/docs/)
 - [Roc](https://www.roc-lang.org/)
 - [Carbon](https://github.com/carbon-language/carbon-lang)
@@ -77,7 +81,6 @@ These are the list of languages on which this will be based:
 - [Raku](https://www.raku.org/) [1](https://raku-advent.blog/2022/12/20/sigils/)
 - [Austral](https://austral-lang.org)
 - [Haskell](https://www.haskell.org/)
-- [Lisp](https://lisp-lang.org/)
 - [Prolog](http://www.gprolog.org/)
 - [CoffeeScript](https://coffeescript.org/)
 - [Hare](https://harelang.org)
