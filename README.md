@@ -84,3 +84,4 @@ Others:
 - [Prolog](http://www.gprolog.org/)
 - [CoffeeScript](https://coffeescript.org/)
 - [Hare](https://harelang.org)
+- [Shen](https://shen-language.github.io)
