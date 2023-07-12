@@ -34,14 +34,14 @@ Light it's a language that bring light for people.
   - [ ] Define grammar **WIP** -- see Syntax_draft.md
   - [ ] Create AST
   - Transpilers (planed) (something like Fable for F#):
-    - [ ] Zig
-    - [ ] JavaScript
-    - [ ] WebAssembly
+    - [ ] Zig - allows to reach a huge list of platforms
+    - [ ] JavaScript - for webdev
+    - [ ] WebAssembly - for webdev
+    - [ ] Lua
     - [ ] Rust/Crab
     - [ ] Java
     - [ ] Elixir
     - [ ] F#
-    - [ ] Lua
   - [ ] REPL (based on Elixir's REPL)
   - [ ] Package manager (allow multiple backends? )
   - [ ] LSP
