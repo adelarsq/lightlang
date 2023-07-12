@@ -6,6 +6,10 @@ Main principles:
 - Simple syntax - as minimal as possible
 - Simple but robust toolbox
 
+Based on Fennel:
+
+- No early returns
+
 Based on F#:
 
 - Functional first
