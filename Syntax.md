@@ -45,10 +45,14 @@ Typed comments:
 i8 i16 i32 i64 i128 i256 // i integers
 u8 u16 u32 u64 u128 u256 // u unsigned integers
 f32 f64 // float numbers
-f32_31 f64_32 // custom float numbers
+f32.31 // signed float number with 32 bits and 31 bits for mantissa -- TODO How many bits mantissa can use?
+f64.32 // signed float number with 64 bits and 32 bits for mantissa
+uf32.31 // unsigned float number with 32 bits and 31 bits for mantissa
+uf64.32 // unsigned float number with 64 bits and 32 bits for mantissa
 c8 c16 // c chars -- TODO
 s8 s16 // s strings -- TODO
 b1 b8  // b boolean -- TODO
+:a :b  // atoms
 ```
 
 [1](https://doc.rust-lang.org/book/ch03-02-data-types.html)
