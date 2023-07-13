@@ -1,6 +1,6 @@
-# Syntax Draft
+# Syntax (WIP)
 
-This document will be used as base for create a grammar, treesitter rules, ...
+This document specify the core syntax rules for the language.
 
 ## General Rules
 
