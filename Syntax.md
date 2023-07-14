@@ -37,8 +37,6 @@ Typed comments (Light):
 # This comment will be transpiled together
 ```
 
-[1](https://elm-lang.org/docs/syntax#comments)
-
 ## Types
 
 ```
@@ -51,12 +49,12 @@ uf32.31 -- unsigned float number with 32 bits and 31 bits for mantissa (Light)
 uf64.32 -- unsigned float number with 64 bits and 32 bits for mantissa (Light)
 c8 c16 -- c chars -- TODO
 s8 s16 -- s strings -- TODO
-b1 b8  -- b boolean -- TODO
+b1 b8  -- b boolean -- TODO Do booleans always have 8 bits?
 :a :b  -- atoms (Elixir, LISP)
 ```
 
-[1](https://doc.rust-lang.org/book/ch03-02-data-types.html)
-[2](https://ziglang.org/documentation/master/#toc-Runtime-Integer-Values)
+Rust: [*](https://doc.rust-lang.org/book/ch03-02-data-types.html)
+Zig: [*](https://ziglang.org/documentation/master/#toc-Runtime-Integer-Values)
 
 ## Values
 
