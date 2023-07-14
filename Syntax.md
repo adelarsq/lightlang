@@ -15,7 +15,7 @@ Simple comments (ELM):
 -- Comments are markdown by default
 ```
 
-Multiline comments (ELM):
+Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-comments)):
 
 ```light
 {- a multiline comment based on ELM
