@@ -16,9 +16,9 @@ Light it's a language that bring light for people.
 ## Principles and Goals
 
 - Can't be used to harm people. See [License](LICENSE)
-- Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf) (if you want)
+- Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
 - Tiny syntax that is easy to understand
-- Manutenability
+- Manutenability - avoid breaking changes
 - Strongly typed
 - Transpile for multiple languages
 - Easy to interop with transpiled languages
