@@ -64,7 +64,7 @@ Zig: [*](https://ziglang.org/documentation/master/#toc-Runtime-Integer-Values)
 3.14              -- or [3.14] one float value
 [3.14 4.15]       -- two float values (tuple)
 [3.14 4.15 5.15]  -- three float values (tuple)
-date 2023 12 3 -- dates are always in the order year, month, day
+date 2023 12 3 -- dates are always in the order year, month, day
 ```
 
 ## Operators (C based)
@@ -96,32 +96,32 @@ Binaries:
 
 ```light
 -- Closures are defined with -> 
-fun x y -> x + y
+fn x y -> x + y
 
 -- Functions are defined with =>
-fun sum x y =>
+fn sum x y =>
     x + y
 
 -- Infered return type
-fun sum x:i32 y:i32 => i32
+fn sum x:i32 y:i32 => i32
     x + y
 
 -- Typed return type
-fun sum x:i32 y:i32 => i32
+fn sum x:i32 y:i32 => i32
     x + y
    
 -- Multiple return types (confirm)
-fun sumOrSub x:i32 y:i32 => i32 i32
+fn sumOrSub x:i32 y:i32 => i32 i32
     x + y
     x - y
    
 -- Defining new operators -- TODO
-fun * x y =>
+fn * x y =>
     100
     
 -- Defining function names as strings
 -- ? defines a test
-fun "returns a sum" ?
+fn "returns a sum" ?
    let s = sum 10 20
    assert = 30 s
 ```
@@ -129,10 +129,10 @@ fun "returns a sum" ?
 Default values:
 
 ```
-fun sum x:i32=10 y:i32 : i32 =>
+fn sum x:i32=10 y:i32 : i32 =>
     x + y
 
-fun array2list list:Array[i32]=[10,10,10] : List[i32] =>
+fn array2list list:Array[i32]=[10,10,10] : List[i32] =>
     ...
 ```
 
@@ -140,22 +140,22 @@ fun array2list list:Array[i32]=[10,10,10] : List[i32] =>
 
 ```light
 // Closures are defined with -> 
-fun x y -> x + y
-fun x:a y:a :a-> x + y
+fn x y -> x + y
+fn x:a y:a :a-> x + y
 
 -- Functions are defined with =>
-fun sum x y =>
+fn sum x y =>
     x + y
-fun sum x:a y:a :a=>
+fn sum x:a y:a :a=>
     x + y
 
-fun sum x:i32 y:i32 :i32=>
+fn sum x:i32 y:i32 :i32=>
     x + y
    
 -- Defining new operators -- TODO
-fun * x y =>
+fn * x y =>
     100
-fun * x:a y:a :a=>
+fn * x:a y:a :a=>
     100
 ```
 
