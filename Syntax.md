@@ -42,17 +42,17 @@ Typed comments:
 ## Types
 
 ```
-i8 i16 i32 i64 i128 i256 // i integers
-u8 u16 u32 u64 u128 u256 // u unsigned integers
-f32 f64 // float numbers
-f32.31 // signed float number with 32 bits and 31 bits for mantissa -- TODO How many bits mantissa can use?
-f64.32 // signed float number with 64 bits and 32 bits for mantissa
-uf32.31 // unsigned float number with 32 bits and 31 bits for mantissa
-uf64.32 // unsigned float number with 64 bits and 32 bits for mantissa
-c8 c16 // c chars -- TODO
-s8 s16 // s strings -- TODO
-b1 b8  // b boolean -- TODO
-:a :b  // atoms
+i8 i16 i32 i64 i128 i256 -- i integers
+u8 u16 u32 u64 u128 u256 -- u unsigned integers
+f32 f64 -- float numbers
+f32.31 -- signed float number with 32 bits and 31 bits for mantissa -- TODO How many bits mantissa can use?
+f64.32 -- signed float number with 64 bits and 32 bits for mantissa
+uf32.31 -- unsigned float number with 32 bits and 31 bits for mantissa
+uf64.32 -- unsigned float number with 64 bits and 32 bits for mantissa
+c8 c16 -- c chars -- TODO
+s8 s16 -- s strings -- TODO
+b1 b8  -- b boolean -- TODO
+:a :b  -- atoms
 ```
 
 [1](https://doc.rust-lang.org/book/ch03-02-data-types.html)
@@ -61,12 +61,12 @@ b1 b8  // b boolean -- TODO
 ## Values
 
 ```
-"hello"           // or ["hello"] one string value
-["hello" "world"] // two string values
-3.14              // or [3.14] one float value
-[3.14 4.15]       // two float values (tuple)
-[3.14 4.15 5.15]  // three float values (tuple)
-date 2023 12 3 // dates are always in the order year, month, day
+"hello"           -- or ["hello"] one string value
+["hello" "world"] -- two string values
+3.14              -- or [3.14] one float value
+[3.14 4.15]       -- two float values (tuple)
+[3.14 4.15 5.15]  -- three float values (tuple)
+date 2023 12 3 -- dates are always in the order year, month, day
 ```
 
 ## Operators
@@ -101,32 +101,32 @@ Custom operation:
 ## Functions
 
 ```light
-// Closures are defined with -> 
+-- Closures are defined with -> 
 fun x y -> x + y
 
-// Functions are defined with =>
+-- Functions are defined with =>
 fun sum x y =>
     x + y
 
-// Infered return type
+-- Infered return type
 fun sum x:i32 y:i32 => i32
     x + y
 
-// Typed return type
+-- Typed return type
 fun sum x:i32 y:i32 => i32
     x + y
    
-// Multiple return types (confirm)
+-- Multiple return types (confirm)
 fun sumOrSub x:i32 y:i32 => i32 i32
     x + y
     x - y
    
-// Defining new operators -- TODO
+-- Defining new operators -- TODO
 fun * x y =>
     100
     
-// Defining function names as strings
-// ? defines a test
+-- Defining function names as strings
+-- ? defines a test
 fun "returns a sum" ?
    let s = sum 10 20
    assert = 30 s
@@ -149,7 +149,7 @@ fun array2list list:Array[i32]=[10,10,10] : List[i32] =>
 fun x y -> x + y
 fun x:a y:a :a-> x + y
 
-// Functions are defined with =>
+-- Functions are defined with =>
 fun sum x y =>
     x + y
 fun sum x:a y:a :a=>
@@ -158,7 +158,7 @@ fun sum x:a y:a :a=>
 fun sum x:i32 y:i32 :i32=>
     x + y
    
-// Defining new operators -- TODO
+-- Defining new operators -- TODO
 fun * x y =>
     100
 fun * x:a y:a :a=>
@@ -168,17 +168,17 @@ fun * x:a y:a :a=>
 ## Another Types
 
 ```light
- // Generic record, with the type parameter in angle brackets
+-- Generic record, with the type parameter in angle brackets
 type MyRecord:a =
      Field1:a
      Field2:a
 
- // Generic discriminated union
+-- Generic discriminated union
 type MyUnion:a =
     | Choice1:a
     | Choice2:a*a
 
-// Tuple
+-- Tuple
 Tuple [1 2]
 ```
 
