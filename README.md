@@ -35,6 +35,7 @@ Light it's a language that bring light for people.
   - [ ] Create AST
   - Transpilers (planed) (something like Fable for F#):
     - [ ] Zig - allows to reach a huge list of platforms
+    - [ ] Swift
     - [ ] JavaScript - for webdev
     - [ ] WebAssembly - for webdev
     - [ ] Lua
