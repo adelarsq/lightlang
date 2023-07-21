@@ -86,3 +86,4 @@ Others:
 - [CoffeeScript](https://coffeescript.org/)
 - [Hare](https://harelang.org)
 - [Shen](https://shen-language.github.io)
+- [Fennel](https://fennel-lang.org/)
