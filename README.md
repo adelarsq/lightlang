@@ -31,7 +31,7 @@ Light it's a language that bring light for people.
 - [x] Logo
 - [X] Define Language used to implement - Zig 
 - [ ] POC features - ~1 year
-  - [ ] Define grammar **WIP** -- see Syntax_draft.md
+  - [ ] Define grammar **WIP** -- see Syntax.md
   - [ ] Create AST
   - Transpilers (planed) (something like Fable for F#):
     - [ ] Zig - allows to reach a huge list of platforms
