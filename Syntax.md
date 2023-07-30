@@ -258,3 +258,6 @@ let reference = a^
 ### Default functions
 
 - `try` - same as `try` from Zig [link](https://ziglang.org/documentation/master/#try)
+- `map`
+- `reduce`
+
