@@ -33,20 +33,22 @@ Light it's a language to bring light for people.
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax.md
   - [ ] Create AST
-  - Transpilers (planed) (something like Fable for F#):
+  - Transpilers (planed) (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
-    - [ ] Swift
-    - [ ] ECMAScript - for webdev
-    - [ ] WebAssembly - for webdev
     - [ ] Lua
-    - [ ] Rust/Crab
-    - [ ] Java
-    - [ ] Elixir
-    - [ ] F#
+  - [ ] Implement Light in Light
   - [ ] REPL (based on Elixir's REPL)
   - [ ] Package manager (allow multiple backends? )
   - [ ] LSP
   - [ ] Treesitter
+  - Transpilers (second round) 
+    - [ ] Swift
+    - [ ] ECMAScript - for webdev
+    - [ ] WebAssembly - for webdev
+    - [ ] Rust/Crab
+    - [ ] Java
+    - [ ] Elixir
+    - [ ] F#
 - [ ] Long term ~2 or more years  
   - [ ] Standalone compiler ~? years
     - [ ] LLVM support
