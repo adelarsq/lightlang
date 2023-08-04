@@ -33,7 +33,7 @@ Light it's a language to bring light for people.
 - [ ] POC features - ~1 year
   - [ ] Define grammar **WIP** -- see Syntax.md
   - [ ] Create AST
-  - Transpilers (planed) (something like Fable for F#) (first round):
+  - Transpilers (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
     - [ ] Lua
   - [ ] Implement Light in Light
