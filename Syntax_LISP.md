@@ -67,7 +67,19 @@ Zig: [*](https://ziglang.org/documentation/master/#toc-Runtime-Integer-Values)
 date 2023 12 3 -- dates are always in the order year, month, day
 ```
 
-## Operators (C based)
+## Variables
+
+```clojure
+(let my_name) ; default value
+(let my_name "Adelar") ; custom value
+(let my_name _) ; no initialization
+
+(let "my name") ; default value
+(let "my name" "Adelar") ; custom value
+(let "my name" _) ; no initialization
+```
+
+## Operators (C based symbols)
 
 Aritmetic:
 
