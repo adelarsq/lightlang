@@ -51,6 +51,7 @@ c8 c16 -- c chars -- TODO
 s8 s16 -- s strings -- TODO
 b1 b8  -- b boolean -- TODO Do booleans always have 8 bits?
 :a :b  -- atoms (Elixir, LISP)
+binary -- something like userdata on Fennel
 ```
 
 Rust: [*](https://doc.rust-lang.org/book/ch03-02-data-types.html)
