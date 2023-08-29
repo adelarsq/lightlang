@@ -8,30 +8,28 @@ Light it's a language to bring light for people.
 > This is not a toy project. In the next months I (or we) will turn this project alive!
 
 > **Premisses**
-> Technology need to bring happiness, not fear and despair.
+> Technology need to bring happiness, not fear and despair. See [License](LICENSE)
 
 > **About the creator**
 > I am creating this project on my free time, but with production in mind. I don't know how much time will take but we will reach there :)
 
-## Principles and Goals
+## Principles
 
-- Can't be used to harm people. See [License](LICENSE)
 - Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
-- Tiny syntax that is easy to understand
+- Minimal syntax
 - Manutenability - avoid breaking changes
 - Strongly typed
-- Transpile for multiple languages
-- Easy to interop with transpiled languages
-- Full featured
+- Easy FFI
 
 ## Roadmap
 
 - [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
-- [x] Logo
-- [X] Define Language used to implement - Zig 
+- [x] Logo -> 
+- [X] Define Language used to implement -> Zig 
 - [ ] POC features - ~1 year
-  - [ ] Define grammar **WIP** -- see Syntax.md
+  - [x] Define main syntax -> LISP
+  - [ ] Define grammar **WIP** -- see Syntax.md and Syntax_LISP.md
   - [ ] Create AST
   - Transpilers (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
@@ -65,12 +63,13 @@ Light it's a language to bring light for people.
 
 These are the list of languages on which this will be based:
 
-- [F#](https://fsharp.org) [Fable](https://github.com/fable-compiler/Fable)
-- [Lisp](https://lisp-lang.org/)
+- [Fennel](https://fennel-lang.org/)
 - [Zig](https://ziglang.org)
+- [F#](https://fsharp.org) [Fable](https://github.com/fable-compiler/Fable)
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [V](https://vlang.io)
 - [Lua](https://www.lua.org/)
+- [Lisp](https://lisp-lang.org/)
 
 Others:
 
@@ -88,4 +87,4 @@ Others:
 - [CoffeeScript](https://coffeescript.org/)
 - [Hare](https://harelang.org)
 - [Shen](https://shen-language.github.io)
-- [Fennel](https://fennel-lang.org/)
+
