@@ -16,7 +16,7 @@ Light it's a language to bring light for people.
 ## Principles
 
 - Performance and energy efficiency [1](https://greenlab.di.uminho.pt/wp-content/uploads/2017/09/paperSLE.pdf)
-- Minimal syntax
+- Minimal syntax - based on LISP
 - Manutenability - avoid breaking changes
 - Strongly typed
 - Easy FFI
@@ -33,6 +33,7 @@ Light it's a language to bring light for people.
   - [ ] Create AST
   - Transpilers (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
+    - [ ] JSON
     - [ ] Lua
   - [ ] Implement Light in Light
   - [ ] REPL (based on Elixir's REPL)
