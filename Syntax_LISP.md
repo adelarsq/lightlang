@@ -15,7 +15,7 @@ Simple comments (ELM):
 -- Comments are markdown by default
 ```
 
-Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-comments)):
+Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-comments)) are Markdown by default:
 
 ```light
 {- a multiline comment based on ELM
@@ -23,18 +23,18 @@ Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-com
 -}
 ```
 
-Typed comments (Light):
+Multiline typed comments (Light) gives information about how comments are rendered:
 
 ```light
-{-xml The `let` keyword defines an (immutable) value xml-}
-{-sql select * from table sql-}
-{-md select * from table md-}
+{-xml The `let` keyword defines an (immutable) value -} -- rendered as XML
+{-sql select * from table -}                            -- rendered as SQL
+{-md select * from table -}                             -- rendered as Markdown
 ```
 
 [Type annotations](https://coffeescript.org/#comments) (CoffeeScript):
 
 ```
-{-# This comment will be transpiled together #-}
+{-# This comment will be transpiled together #-} -- for Zig will be transpiled to // This comment will be transpiled together 
 ```
 
 ## Types
