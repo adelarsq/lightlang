@@ -1,4 +1,4 @@
-# Syntax (WIP)
+# LISP Syntax
 
 This document specify the core syntax rules for the language.
 
@@ -6,16 +6,17 @@ This document specify the core syntax rules for the language.
 
 - no inheritance - this is made with composition (Rusty like)
 - named parameters (based on OCalm [link](https://v2.ocaml.org/manual/lablexamples.html))
+- case sensitive
 
 ## Comments
 
 Simple comments (ELM):
 
-```light
+```clojure
 -- Comments are markdown by default
 ```
 
-Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-comments)):
+Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-comments)) are Markdown by default:
 
 ```light
 {- a multiline comment based on ELM
@@ -23,18 +24,18 @@ Multiline comments ([ELM](https://elmprogramming.com/comment.html#multi-line-com
 -}
 ```
 
-Typed comments (Light):
+Multiline typed comments (Light) gives information about how comments are rendered:
 
 ```light
-{-xml The `let` keyword defines an (immutable) value xml-}
-{-sql select * from table sql-}
-{-md select * from table md-}
+{-xml The `let` keyword defines an (immutable) value -} -- rendered as XML
+{-sql select * from table -}                            -- rendered as SQL
+{-md select * from table -}                             -- rendered as Markdown
 ```
 
 [Type annotations](https://coffeescript.org/#comments) (CoffeeScript):
 
 ```
-# This comment will be transpiled together
+{-# This comment will be transpiled together #-} -- for Zig will be transpiled to // This comment will be transpiled together 
 ```
 
 ## Types
@@ -51,6 +52,7 @@ c8 c16 -- c chars -- TODO
 s8 s16 -- s strings -- TODO
 b1 b8  -- b boolean -- TODO Do booleans always have 8 bits?
 :a :b  -- atoms (Elixir, LISP)
+binary -- something like userdata on Fennel
 ```
 
 Rust: [*](https://doc.rust-lang.org/book/ch03-02-data-types.html)
@@ -64,116 +66,141 @@ Zig: [*](https://ziglang.org/documentation/master/#toc-Runtime-Integer-Values)
 3.14              -- or [3.14] one float value
 [3.14 4.15]       -- two float values (tuple)
 [3.14 4.15 5.15]  -- three float values (tuple)
-date 2023 12 3 -- dates are always in the order year, month, day
+date 2023 12 3    -- dates are always in the order year, month, day
 ```
 
-## Operators (C based)
+## Variables
+
+```clojure
+(let my_name) ; default value
+(let my_name "Adelar") ; custom value
+(let my_name _) ; no initialization
+
+(let "my name") ; default value
+(let "my name" "Adelar") ; custom value
+(let "my name" _) ; no initialization
+```
+
+## Operators (C based symbols)
+
+Operators as functions. Predefined operators:
 
 Aritmetic:
 
-- `+`
-- `-`
-- `/`
-- `*`
-- `%`
+- `(+ 1)`, `(+ 1 3)`
+- `(- 3)`, `(- 3 2)` 
+- `(/ 4 2)`
+- `(* 2 4)`
+- `(% 2 4)`
 
 Logical:
 
-- `&&`
-- `||`
-- `!`
+- `(&& true true)`
+- `(|| false true)`
+- `(! false)`
 
 Binaries:
 
-- `&`
-- `|`
-- `^`
-- `>>`
-- `<<`
-- `>>>`
+- `(& 3 2`
+- `(| 3 2)`
+- `(^ 3 2)`
+- `(>> 3 2)`
+- `(<< 3 2)`
+- `(>>> 3 2)`
 
 ## Functions
 
 ```light
 -- Closures are defined with -> 
-fn x y -> x + y
+(fn [x y]
+   (x + y))
 
 -- Functions are defined with =>
-fn sum x y =>
-    x + y
+(fn sum [x y]
+    (x + y))
 
 -- Infered return type
-fn sum x:i32 y:i32 => i32
-    x + y
+(fn sum [x:i32 y:i32]:i32
+    (x + y))
 
 -- Typed return type
-fn sum x:i32 y:i32 => i32
-    x + y
+(fn sum [x:i32 y:i32]:i32
+    (x + y))
    
 -- Multiple return types (confirm)
-fn sumOrSub x:i32 y:i32 => i32 i32
-    x + y
-    x - y
+(fn sumOrSub [x:i32 y:i32]:(i32 i32)
+    (x + y)
+    (x - y))
    
 -- Defining new operators -- TODO
-fn * x y =>
-    100
+(fn * [x y]
+    (100))
     
 -- Defining function names as strings
 -- ? defines a test
-fn "returns a sum" ?
-   let s = sum 10 20
-   assert = 30 s
+(test "returns a sum"
+   (let s = sum 10 20)
+   (assert = 30 s))
 ```
 
 Default values:
 
 ```
-fn sum x:i32=10 y:i32 : i32 =>
-    x + y
+(fn sum:i32 (x:i32=10 y:i32)
+    (x + y))
 
-fn array2list list:Array[i32]=[10,10,10] : List[i32] =>
-    ...
+(fn array2list:List[i32] (list:Array[i32]=[10,10,10]
+    (...))
 ```
-
 ## Generics
+
+Most of the cases there is no need to specify types.
+Something like F# uses.
+
+### Closures
+
+Closures are funcions without name:
 
 ```light
 // Closures are defined with -> 
-fn x y -> x + y
-fn x:a y:a :a-> x + y
+(fn [x y] (x + y))
+(fn [x:a y:a] (x + y))
 
 -- Functions are defined with =>
-fn sum x y =>
-    x + y
-fn sum x:a y:a :a=>
-    x + y
+(fn [x y]
+    (x + y))
+(fn [x:a y:a]:a 
+    (x + y))
 
-fn sum x:i32 y:i32 :i32=>
-    x + y
-   
--- Defining new operators -- TODO
-fn * x y =>
-    100
-fn * x:a y:a :a=>
-    100
+(fn [x:i32 y:i32]:i32
+    (x + y))
+```
+
+### Defining operators
+
+```
+(fn * [x y]
+    (100))
+
+(fn * [x:a y:a] :a
+    (100))
 ```
 
 ## Another Types
 
 ```light
 -- Generic record, with the type parameter in angle brackets
-type MyRecord:a =
-     Field1:a
-     Field2:a
+(type MyRecord:a
+     (Field1:a)
+     (Field2:a))
 
 -- Generic discriminated union
-type MyUnion:a =
-    | Choice1:a
-    | Choice2:a*a
+(type MyUnion:a =
+    (| (Choice1:a)
+       (Choice2:a*a)))
 
 -- Tuple
-Tuple [1 2]
+(tuple [1 2])
 ```
 
 ## Collections
@@ -183,7 +210,7 @@ Tuple [1 2]
 A raw array that can be acessed by an integer index
 
 ```
-Array [1 3 4 5]
+(array [1 3 4 5])
 ```
 
 ### List
@@ -191,7 +218,7 @@ Array [1 3 4 5]
 A linked list:
 
 ```
-List [1 3 4 5]
+(list [1 3 4 5])
 ```
 
 ### Sequence
@@ -199,7 +226,7 @@ List [1 3 4 5]
 Itens are generated by demand:
 
 ```
-Seq [1 2 3 4]
+(seq [1 2 3 4])
 ```
 
 ## Flux Control
@@ -209,7 +236,9 @@ Seq [1 2 3 4]
 #### if
 
 ```
-if a > 11 then "> 11" else "<= 11"
+(if [a > 11]
+  ("> 11")   -- true
+  ("<= 11")) -- false
 ```
 
 [1](https://elmprogramming.com/if-expression.html)
@@ -217,20 +246,18 @@ if a > 11 then "> 11" else "<= 11"
 #### case
 
 ```
-case maybeList
-  Just xs -> xs
-  Nothing -> []
+(case maybeList
+  (Just xs xs)
+  (Nothing []))
 
-case xs
-  [] ->
-    Nothing
-  first :: rest ->
-    Just (first, rest)
+(case xs
+  ([] Nothing)
+  (first :: rest (Just (first, rest))))
 
-case n
-  0 -> 1
-  1 -> 1
-  _ -> fib (n-1) + fib (n-2)
+(case n
+  (0 1)
+  (1 1)
+  (_ fib (n-1) + fib (n-2)))
 ```
 
 ### Loops
@@ -246,9 +273,9 @@ case n
 ### Pointers and References
 
 ```
-let a = 1
-let pointer = ^a
-let reference = a^
+(let a 1)
+(let pointer ^a)
+(let reference a^)
 ```
 
 [1](https://odin-lang.org/docs/overview/#pointers)
@@ -258,6 +285,42 @@ let reference = a^
 ### Default functions
 
 - `try` - same as `try` from Zig [link](https://ziglang.org/documentation/master/#try)
+
+```lisp
+(try calculate result) ; same as `const result = try calculate();`  
+```
+
 - `map`
+
+```lisp
+(map myfunction)
+```
+
 - `reduce`
+
+```lisp
+(map myfunction)
+```
+
+- `|>` - same as `|>` operator on F#
+
+```lisp
+(|> values
+    f1
+    f2)
+```
+
+- `.` - fluent function. Call a number of functions for the value, returning a tupple
+
+```lisp
+(. value
+    f1
+    f2)
+```
+
+- `..` - generate sequence
+
+```lisp
+(.. 1 10) ; 1 2 3 4 5 6 7 8 9 10
+```
 
