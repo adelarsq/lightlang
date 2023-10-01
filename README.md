@@ -29,7 +29,7 @@ Light it's a language to bring light for people.
 - [X] Define Language used to implement -> Zig 
 - [ ] POC features - ~1 year
   - [x] Define main syntax -> LISP
-  - [ ] Define grammar **WIP** -- see Syntax.md and Syntax_LISP.md
+  - [ ] Define grammar **WIP** -- see Syntax_LISP.md
   - [ ] Create AST
   - Transpilers (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
