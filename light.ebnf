@@ -1,0 +1,47 @@
+<program> ::= <expression>
+
+<expression> ::= <atom>
+             | '(' <function> <arguments> ')'
+
+<function> ::= <atom>
+
+<arguments> ::= <expression> <arguments>
+             | ε  ; ε represents an empty string
+
+<atom> ::= <variable>
+        | <number>
+        | <string>
+        | <boolean>
+        | <nil>
+
+<variable> ::= <identifier>
+
+<identifier> ::= <letter> <rest-of-identifier>
+
+<rest-of-identifier> ::= <letter> <rest-of-identifier>
+                    | <digit> <rest-of-identifier>
+                    | ε
+
+<number> ::= <integer>
+         | <float>
+
+<integer> ::= <digit> <digits>
+           | '-' <digit> <digits>
+
+<digits> ::= <digit> <digits>
+         | ε
+
+<digit> ::= '0' | '1' | '2' | ... | '9'
+
+<float> ::= <integer> '.' <digits>
+
+<string> ::= '"' <string-content> '"'
+
+<string-content> ::= <char> <string-content>
+                | ε
+
+<char> ::= any valid character, excluding double quotes and control characters
+
+<boolean> ::= 'true' | 'false'
+
+<nil> ::= 'nil'
