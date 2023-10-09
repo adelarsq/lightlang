@@ -29,8 +29,8 @@ Light it's a language to bring light for people.
 - [X] Define Language used to implement -> Zig 
 - [ ] POC features - ~1 year
   - [x] Define main syntax -> LISP
-  - [ ] Define grammar **WIP** -- see LISP.md
-  - [ ] Create AST
+  - [ ] Define grammar **WIP** -- see Syntax.md and light.ebnf
+  - [ ] Create AST implementation
   - Transpilers (something like Fable for F#) (first round):
     - [ ] Zig - allows to reach a huge list of platforms
     - [ ] JSON
