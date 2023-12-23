@@ -13,7 +13,7 @@ This document specify the core syntax rules for the language.
 
 Simple comments (ELM):
 
-```clojure
+```light
 -- Comments are markdown by default
 ```
 
@@ -149,6 +149,7 @@ Default values:
 (fn sum [(x 10) y]
     (x + y))
 
+(: (list i32) (?))
 (fn array2list [(list [10,10,10])]
     (...))
 ```
@@ -169,6 +170,7 @@ Closures are funcions without name:
 ### Defining operators
 
 ```
+(: _ _ i32)
 (fn * [x y]
     (100))
 
