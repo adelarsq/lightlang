@@ -119,20 +119,18 @@ Binaries:
 (fn sum [x y]
     (x + y))
 
--- Infered return type
-(fn sum [x:i32 y:i32]:i32
-    (x + y))
-
--- Typed return type
-(fn sum [x:i32 y:i32]:i32
+-- Defined return type
+(: sum i32 i32 i32)
+(fn sum [x y]
     (x + y))
    
 -- Multiple return types (confirm)
-(fn sumOrSub [x:i32 y:i32]:(i32 i32)
+(: sumOrSub i32 i32 [i32 i32])
+(fn sumOrSub [x y]
     (x + y)
     (x - y))
    
--- Defining new operators -- TODO
+-- Defining new operators
 (fn * [x y]
     (100))
     
@@ -146,10 +144,11 @@ Binaries:
 Default values:
 
 ```
-(fn sum:i32 (x:i32=10 y:i32)
+(: sum i32 i32 i32)
+(fn sum [(x 10) y]
     (x + y))
 
-(fn array2list:List[i32] (list:Array[i32]=[10,10,10]
+(fn array2list [(list [10,10,10])]
     (...))
 ```
 ## Generics
@@ -163,17 +162,7 @@ Closures are funcions without name:
 
 ```light
 // Closures are defined with -> 
-(fn [x y] (x + y))
-(fn [x:a y:a] (x + y))
-
--- Functions are defined with =>
-(fn [x y]
-    (x + y))
-(fn [x:a y:a]:a 
-    (x + y))
-
-(fn [x:i32 y:i32]:i32
-    (x + y))
+(-> [x y] (x + y))
 ```
 
 ### Defining operators
@@ -182,7 +171,8 @@ Closures are funcions without name:
 (fn * [x y]
     (100))
 
-(fn * [x:a y:a] :a
+(: a a a)
+(fn * [x y]
     (100))
 ```
 
@@ -190,20 +180,25 @@ Closures are funcions without name:
 
 ```light
 -- Generic record, with the type parameter in angle brackets
-(type MyRecord:a
-     (Field1:a)
-     (Field2:a))
+(: a a a)
+(type MyRecord
+     (Field1)
+     (Field2))
 
 -- Generic discriminated union
-(type MyUnion:a =
-    (| (Choice1:a)
-       (Choice2:a*a)))
-
--- Tuple
-(tuple [1 2])
+(: a a a*a) -- TODO
+(type MyUnion =
+    (| (Choice1)
+       (Choice2)))
 ```
 
-## Collections
+## Complex Types
+
+### Tuple
+
+```
+(tuple [1 2])
+```
 
 ### Array
 
