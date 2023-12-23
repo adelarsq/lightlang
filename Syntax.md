@@ -1,4 +1,4 @@
-# LISP Syntax
+# Light Syntax
 
 This document specify the core syntax rules for the language.
 
@@ -7,6 +7,7 @@ This document specify the core syntax rules for the language.
 - no inheritance - this is made with composition (Rusty like)
 - named parameters (based on OCalm [link](https://v2.ocaml.org/manual/lablexamples.html))
 - case sensitive
+- LISP like syntax
 
 ## Comments
 
