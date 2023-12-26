@@ -90,3 +90,4 @@ Others:
 - [Shen](https://shen-language.github.io)
 - [LCL](https://codeberg.org/gsou/LCL)
 - [TXR](https://www.nongnu.org/txr/txr-lisp.html)
+- [blisp](https://ytakano.github.io/blisp)
