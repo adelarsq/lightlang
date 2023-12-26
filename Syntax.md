@@ -96,9 +96,10 @@ Aritmetic:
 
 Logical:
 
-- `(&& true true)`
-- `(|| false true)`
-- `(! false)`
+- and - `(&& true true)`
+- or - `(|| false true)`
+- not - `(! false)`
+- xor - ^ true false
 
 Binaries:
 
