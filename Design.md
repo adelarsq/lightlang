@@ -47,15 +47,17 @@ New features:
 
 Any CLI command can be called on any folder.
 
-- light or light help <topic> - help about CLI commands
-- light install - install packages (including packages from the host language)
-- light run - execute current project
-- light watch - watch changes on the code
-- light test - executes tests and shows coverage
-- light deps - shows dependency information (inclusing packages from the host language)
-- light fmt - format code
-- light bug - starts a bug report
-- light doc - shows documentation for the current project or package
-- light version - shows version
+- `light` or `light help <topic>` - help about CLI commands
+- `light init` or `light init <templace-name>` - initialize a default project or based on a template 
+- `light install` - install packages (including packages from the host language)
+- `light run` - execute current project
+- `light watch` - watch changes on the code
+- `light test` - executes tests and shows coverage
+- `light deps` - shows dependency information (inclusing packages from the host language)
+- `light fmt` - format code
+- `light bug` - starts a bug report
+- `light doc` - shows documentation for the current project or package
+- `light version` - shows version
+
 
 
