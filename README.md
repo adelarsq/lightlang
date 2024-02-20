@@ -8,7 +8,7 @@ Light it's a language to bring light for people.
 > This is not a toy project. In the next months I (or we) will turn this project alive!
 
 > **Premisses**
-> Technology need to bring happiness, not fear and despair. See [License](LICENSE)
+> Technology and peace together. See [License](LICENSE)
 
 > **About the creator**
 > I am creating this project on my free time, but with production in mind. I don't know how much time will take but we will reach there :)
