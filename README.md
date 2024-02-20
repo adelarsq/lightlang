@@ -25,7 +25,7 @@ Light it's a language to bring light for people.
 
 - [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
-- [x] Logo -> 
+- [x] Logo
 - [X] Define Language used to implement -> Go
 - [ ] POC features - ~1 year
   - [x] Define main syntax -> LISP
@@ -40,6 +40,7 @@ Light it's a language to bring light for people.
   - [ ] Package manager (allow multiple backends? )
   - [ ] LSP
   - [ ] Treesitter
+  - [ ] DAP
   - Transpilers (second round) 
     - [ ] Swift
     - [ ] ECMAScript - for webdev
@@ -51,6 +52,9 @@ Light it's a language to bring light for people.
 - [ ] Long term ~2 or more years  
   - [ ] Standalone compiler ~? years
     - [ ] LLVM support
+- [ ] On the map
+  - [ ] SIMD
+  - [ ] Shaders
 
 ## License
 
