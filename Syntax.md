@@ -86,24 +86,32 @@ date 2023 12 3    -- dates are always in the order year, month, day
 
 Operators as functions. Predefined operators:
 
+Comparation:
+
+- `(== 2 2)`
+- `(< 2 3 5)` -- incresing operator
+- `(> 2 3 5)` -- decreasing operator
+- `(<= 2 3 5)` -- incresing operator
+- `(>= 2 3 5)` -- decreasing or equal operator
+
 Aritmetic:
 
-- `(+ 1)`, `(+ 1 3)`
-- `(- 3)`, `(- 3 2)` 
-- `(/ 4 2)`
-- `(* 2 4)`
-- `(% 2 4)`
+- `(+ 1)`, `(+ 1 3)`, `(+ 1 3 4)`
+- `(- 3)`, `(- 3 2)`, `(- 3 2 4)` 
+- `(/ 4)`, `(/ 4 2)`, `(/ 4 2 4)`
+- `(* 2)`, `(* 2 4)`, `(* 2 4 6)`
+- `(% 2)`, `(% 2 4)`, `(% 2 4 5)`
 
 Logical:
 
 - and - `(&& true true)`
 - or - `(|| false true)`
 - not - `(! false)`
-- xor - ^ true false
+- xor - `(^ true false)`
 
 Binaries:
 
-- `(& 3 2`
+- `(& 3 2)`
 - `(| 3 2)`
 - `(^ 3 2)`
 - `(>> 3 2)`
