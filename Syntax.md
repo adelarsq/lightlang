@@ -89,6 +89,7 @@ Operators as functions. Predefined operators:
 Comparation:
 
 - `(== 2 2)`
+- `(!= 2 3)`
 - `(< 2 3 5)` -- incresing operator
 - `(> 2 3 5)` -- decreasing operator
 - `(<= 2 3 5)` -- incresing operator
