@@ -123,10 +123,10 @@ Binaries:
 
 ```light
 -- Closures are defined with -> 
-(fn [x y]
+(-> [x y]
    (x + y))
 
--- Functions are defined with =>
+-- Functions are defined with fn
 (fn sum [x y]
     (x + y))
 
