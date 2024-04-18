@@ -1,0 +1,9 @@
+
+{- Modulos operator, based on
+   https://dev.to/stefanalfbo/the-modulus-operator-in-net-4kgk -}
+(fn %% [a b]
+    (= c (% a b))
+    (if (|| (&& (< c 0) (> b 0)) (&& (> c 0) (< b 0)))
+        (+ c b)
+        (c)))
+
