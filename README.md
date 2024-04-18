@@ -5,7 +5,7 @@
 Light it's a language to bring light for people.
 
 > **Objectives**
-> This is not a toy project. In the next months I (or we) will turn this project alive!
+> This is not a toy project. In the next years this project will be alive!
 
 > **Premisses**
 > Technology and peace together. See [License](LICENSE)
