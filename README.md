@@ -97,3 +97,4 @@ Others:
 - [blisp](https://ytakano.github.io/blisp)
 - [lips](https://lips.js.org/)
 - [lumen](https://github.com/sctb/lumen)
+- [guile](https://www.gnu.org/software/guile)
