@@ -106,15 +106,15 @@ Aritmetic:
 
 Logical:
 
-- and - `(&& true true)`
-- or - `(|| false true)`
-- not - `(! false)`
-- nand - `(!&& true true)
-- nor - ...
-- xor - `(^ true false)`
-- xnor - ...
-- mux - ...
-- demux - ...
+- `(and true true)`
+- `(or false true)`
+- `(not false)`
+- `(nand true true)`
+- `(nor true true)`
+- `(xor true false)`
+- `(xnor true true)`
+- `(mux true true)`
+- `(demux true true true)`
 
 Binaries:
 
