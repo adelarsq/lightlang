@@ -109,7 +109,12 @@ Logical:
 - and - `(&& true true)`
 - or - `(|| false true)`
 - not - `(! false)`
+- nand - `(!&& true true)
+- nor - ...
 - xor - `(^ true false)`
+- xnor - ...
+- mux - ...
+- demux - ...
 
 Binaries:
 
@@ -119,6 +124,8 @@ Binaries:
 - `(>> 3 2)`
 - `(<< 3 2)`
 - `(>>> 3 2)`
+
+- [*](https://en.wikipedia.org/wiki/NAND_logic)
 
 ## Functions
 
