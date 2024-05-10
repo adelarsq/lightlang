@@ -5,6 +5,9 @@
 - `*.li` - light source code
 - `*.lis` - light script
 - `build.li` - light project file. Project file is also made with Light
+- `*.js.lis` - light script that will be transpiled to JS
+- `*.lua.lis` - light script that will be transpiled to Lua
+- `*.lua.lis` - light script that will be transpiled to V
 
 ## Format
 
