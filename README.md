@@ -26,7 +26,7 @@ Light it's a language to bring light for people.
 - [x] Define roadmap
 - [x] Define language to write the first compiler version **WIP**
 - [x] Logo
-- [X] Define Language used to implement -> Go
+- [X] Define Language used to implement -> V
 - [ ] POC features - ~1 year
   - [x] Define main syntax -> LISP
   - [ ] Define grammar **WIP** -- see Syntax.md and light.ebnf
