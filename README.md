@@ -32,8 +32,8 @@ Light it's a language to bring light for people.
   - [ ] Define grammar **WIP** -- see Syntax.md and light.ebnf
   - [ ] Create AST implementation
   - Transpilers (something like Fable for F#) (first round):
-    - [ ] Zig - allows to reach a huge list of platforms
-    - [ ] JSON
+    - [ ] V
+    - [ ] JavaScript and JSON
     - [ ] Lua
   - [ ] Implement Light in Light
   - [ ] REPL (based on Elixir's REPL)
@@ -41,7 +41,8 @@ Light it's a language to bring light for people.
   - [ ] LSP
   - [ ] Treesitter
   - [ ] DAP
-  - Transpilers (second round) 
+  - Transpilers (second round)
+    - [ ] Zig - allows to reach a huge list of platforms
     - [ ] Swift
     - [ ] ECMAScript - for webdev
     - [ ] WebAssembly - for webdev
