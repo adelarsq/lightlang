@@ -15,10 +15,14 @@
 
 - [ ] Installer
 - [ ] LSP
+- [ ] DAP
+- [ ] Treesitter
 - [ ] Formatter
 - [ ] Docs generator
 - [ ] Web server
 - [ ] Doctor
+- [ ] Runner
+  - [ ] Caching when possible [ref 1](https://github.com/mozilla/sccache)
 
 ## References
 
