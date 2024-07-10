@@ -32,7 +32,7 @@ Light it's a language to bring light for people.
   - [ ] Define grammar **WIP** -- see Syntax.md and light.ebnf
   - [ ] Create AST implementation
   - Transpilers (something like Fable for F#) (first round):
-    - [ ] V
+    - [ ] Go
     - [ ] JavaScript and JSON
     - [ ] Lua
   - [ ] Implement Light in Light
@@ -42,7 +42,7 @@ Light it's a language to bring light for people.
   - [ ] Treesitter
   - [ ] DAP
   - Transpilers (second round)
-    - [ ] Zig - allows to reach a huge list of platforms
+    - [ ] Zig
     - [ ] Swift
     - [ ] ECMAScript - for webdev
     - [ ] WebAssembly - for webdev
@@ -50,6 +50,7 @@ Light it's a language to bring light for people.
     - [ ] Java
     - [ ] Elixir
     - [ ] F#
+    - [ ] V
 - [ ] Long term ~2 or more years  
   - [ ] Standalone compiler ~? years
     - [ ] LLVM support
