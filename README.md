@@ -70,13 +70,15 @@ Light it's a language to bring light for people.
 
 These are the list of languages on which this will be based:
 
-- [Fennel](https://fennel-lang.org/)
+- [Lisp](https://lisp-lang.org/)
+  - [Fennel](https://fennel-lang.org/)
+  - [Ciel](https://ciel-lang.org)
 - [Zig](https://ziglang.org)
-- [F#](https://fsharp.org) [Fable](https://github.com/fable-compiler/Fable)
+- [F#](https://fsharp.org)
+  - [Fable](https://github.com/fable-compiler/Fable)
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [V](https://vlang.io)
 - [Lua](https://www.lua.org/)
-- [Lisp](https://lisp-lang.org/)
 
 Others:
 
