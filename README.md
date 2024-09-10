@@ -102,3 +102,4 @@ Others:
 - [lips](https://lips.js.org/)
 - [lumen](https://github.com/sctb/lumen)
 - [guile](https://www.gnu.org/software/guile)
+- [s7](https://ccrma.stanford.edu/software/snd/snd/s7.html)
