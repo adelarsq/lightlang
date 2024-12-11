@@ -1,0 +1,8 @@
+
+-- Fibonacci with Light's pattern matching
+(fun fib 
+   (= 0 0)
+   (= 1 1)
+   (= n (+ (fib (- n 1)) (fib (- n 2)))))
+
+   
