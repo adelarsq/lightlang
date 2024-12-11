@@ -79,6 +79,7 @@ These are the list of languages on which this will be based:
 - [ELM](https://elm-lang.org) and [Gren](https://gren-lang.org)
 - [V](https://vlang.io)
 - [Lua](https://www.lua.org/)
+- [Haskell](https://www.haskell.org/)
 
 Others:
 
@@ -91,7 +92,6 @@ Others:
 - [Odin](https://odin-lang.org)
 - [Raku](https://www.raku.org/) [1](https://raku-advent.blog/2022/12/20/sigils/)
 - [Austral](https://austral-lang.org)
-- [Haskell](https://www.haskell.org/)
 - [Prolog](http://www.gprolog.org/)
 - [CoffeeScript](https://coffeescript.org/)
 - [Hare](https://harelang.org)
