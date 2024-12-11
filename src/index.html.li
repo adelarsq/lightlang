@@ -16,11 +16,10 @@
 )
 (body
     (header
-        (h1 Bem-vindo à Página Simples)
+        (h1 Wellcome!)
     )
     (main
-        (p Esta é uma página HTML simples com um cabeçalho, um corpo e um rodapé.)
-        (p Aprenda mais sobre <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">HTML na MDN</a>.)
+        (p This is a simple HTML pagina writed on Light.)
     )
 )
 )
