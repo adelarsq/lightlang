@@ -42,6 +42,7 @@ New features:
 
 - Custom keywords
 - Any chars can be used (usefull for Math and Science)
+- Allow to compile a code if other code has been compiled
 
 ## CLI Commands
 
