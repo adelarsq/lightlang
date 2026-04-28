@@ -29,6 +29,10 @@ Light it's a language to bring light for people.
 - [X] Define Language used to implement -> Go
 - [ ] POC features - ~1 year
   - [x] Define main syntax -> LISP
+     - [x] Define paradigm (LISP based syntax)
+     - [x] Define operators
+     - [ ] Define reserved words
+     - [ ] Document grammar
   - [ ] Define grammar **WIP** -- see Syntax.md and light.ebnf
   - [ ] Create AST implementation
   - Transpilers (something like Fable for F#) (first round):
@@ -73,6 +77,7 @@ These are the list of languages on which this will be based:
 - [Lisp](https://lisp-lang.org/)
   - [Fennel](https://fennel-lang.org/)
   - [Ciel](https://ciel-lang.org)
+- [Gleam](https://gleam.run)
 - [Zig](https://ziglang.org)
 - [F#](https://fsharp.org)
   - [Fable](https://github.com/fable-compiler/Fable)
